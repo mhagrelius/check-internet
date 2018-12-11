@@ -1,6 +1,6 @@
 {
   "name": "check-internet",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "bin": {
     "check-internet": "./build/main/cli.js"
   },
