@@ -2,7 +2,7 @@
   "name": "@mhagrelius/check-internet",
   "version": "0.1.0",
   "bin": {
-    "check-internet": "./build/main/cli.js"
+    "check-internet": "build/main/cli.js"
   },
   "description": "a cli utility for verifying network infrastructure.",
   "main": "build/main/index.js",
@@ -10,7 +10,13 @@
   "module": "build/module/index.js",
   "repository": "https://github.com/mhagrelius/check-internet",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "ping",
+    "network",
+    "connectivity",
+    "diagnostics",
+    "cli"
+  ],
   "scripts": {
     "describe": "npm-scripts-info",
     "build": "run-s clean && run-p build:*",
